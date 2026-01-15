@@ -1,0 +1,17 @@
+# Backend environment variables
+backend/.env
+backend/.env.*
+
+# Python
+backend/__pycache__/
+backend/venv/
+backend/*.pyc
+
+# Frontend (extra safety)
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# OS junk
+.DS_Store
+Thumbs.db
